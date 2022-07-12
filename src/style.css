@@ -1,0 +1,29 @@
+ 
+body {
+    background-color: white ;
+}
+
+header {
+    background-color: #B5CEE9;
+    height: 30px;
+}
+
+.container {
+    background-color: #ECF3F9;
+    padding: 20px;
+    position: absolute;
+    width: 744px;
+    height: 357px;
+    left: 256px;
+    top: 150px;
+    border: 1px solid #F6F9FD;
+    border-radius: 52px;
+}
+
+#button {
+    background-color:#DAE7F4;
+    width: 143.94px;
+    height: 48.2px;
+    left: 605.92px;
+    
+}
