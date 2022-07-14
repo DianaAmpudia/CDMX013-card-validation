@@ -1,32 +1,59 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Joan&family=Kdam+Thmor+Pro&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
 body {
-    background-color: white ;
-    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: rgb(255, 255, 255) ;
+    font-family: 'Raleway', sans-serif;
 }
 
-header {
-    background-color: #B5CEE9;
-    height: 30px;
+head {
+    width: 20%;
 }
 
 .container {
-    background-color: #ECF3F9;
+    background-color: #ffffff;
     padding: 20px;
     position: absolute;
-    width: 744px;
-    height: 357px;
-    left: 256px;
-    top: 150px;
+    width: 345px;
+    height: 527px;
+    left: 400px;
+    top: 90px;
     border: 1px solid #F6F9FD;
     border-radius: 52px;
+
 }
 
 #button {
-    background-color:#DAE7F4;
-    width: 143.94px;
-    height: 48.2px;
+    background: #B5CEE9;
+    font-size: 12px;
+    width: 93.94px;
+    height: 28.2px;
     left: 605.92px;
+    font-family: 'Raleway', sans-serif;
     
+}
+
+.cardName {
+    background: #B5CEE9;
+    width: 330.94px;
+}
+
+.cardNumber {
+    background: #B5CEE9;
+    width: 330.94px;
+}
+
+#div1 {
+    background-color: #d6e2ec;
+    padding: 20px;
+    width: 380px;
+    height: 570px;
+    left: 400px;
+    top: 90px;
+    border: 1px solid #F6F9FD;
+    border-radius: 52px;
+    margin-left: 374px;
+    margin-right: 70%;
+    margin-top: 6px;
+    margin-bottom: 1;
 }
