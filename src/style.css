@@ -1,6 +1,9 @@
- 
+
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Kdam+Thmor+Pro&family=Poppins:wght@100&display=swap');
+
 body {
     background-color: white ;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 header {
