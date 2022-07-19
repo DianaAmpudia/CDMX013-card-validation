@@ -4,37 +4,54 @@
   <head>
     <meta charset="utf-8">
     <title>Método de Pago</title>
-    <link rel="stylesheet" href="style.css" />
-    <header><img src="img/aaa.png"></header>
+    <link rel="stylesheet" href="style.css"/>
+    <header align="center">
+      <h2>nana's store</h2></header>
   </head>
 
 
   <body>
-   
+
     <main>
-      <div class="container">
-        <h2 align="center">Antes de continuar con tu pago...</h2>
-        <p align="center">Es necesario validar tu tarjeta de crédito/débito, para ello coloca los siguientes datos:</p>
-        <div class="form">
-
-          <div class="cardValidation" align="left">
-            <label for="cardName">Nombre del Titular: </label>
-            <br><input class="cardName" type="text" name="Nombre" id="cardName"><br>
-
-            <br><label for="cardNumber">Número de Tarjeta: </label>
-            <br><input class="cardNumber" type="text" name="Tarjeta" id="cardNumber" minlength="16" 
-            maxlength="16"pattern="[0-9]+"><br>
-          </div> </div>
-
-          <br><div class="containerB" align="center"><br>
-            <button id="button">VALIDAR</button>
-        </div>
+      <div class="container-compra">
+        <h2 align="center">Detalles de tu compra</h2>
+        <div align="center"><img src="img/logop.png"></div>
+        <p align="center">ORDER #0001 FOR DIANA AP</p>
+        <p align="center">THURSDAY, JULY 14, 2022</p>
+        <h5 align="center">1 HEART SHAPED MIRROR_____________200</h5>
+        <h5 align="center">1 PEARLED SUN EARRINGS____________100</h5>
+        <h5 align="center">1 PINK FLOWER BRACELET____________080</h5>
+        <h5 align="center">ITEM COUNT:________________________003</h5>
+        <h5 align="center">TOTAL:_____________________________$380</h5>
       </div>
-      <div id="div1"></div>
-    </main>
 
+      <div class="container1" align="center">
+        <h2 align="center">Antes de continuar con tu pago...</h2>
+        <h4>Es necesario validar tu tarjeta de crédito/débito, para ello coloca los siguientes datos:</h4>
+        
+        <p>Nombre(s):</p>
+         <input type="text" id="cardName" name="name">
+          <br>
+          <p>Apellidos:</p>
+         <input type="text" id="cardLastName" name="lastname">
+          <br>
+         <p>Número de Tarjeta:</p>
+          <input type= "text" id="cardNumber" name="tarjeta" minlength="13" maxlength="16" required>
+        
+           <div class="botones" align="center">
+           <br><button type="submit" class="btnValidar" id="btnValidar">VALIDAR</button><br>      
+
+          <br><div id="Valida" align="center"></div><br>
+          <br><div id="Valida2" align="center"></div><br>
+          <div id="Invalida" align="center"></div>
+          <div id="Invalida2" align="center"></div>      
+      </div>  
+    </div>
+
+    </main>
 
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
+
 </html>
