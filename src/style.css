@@ -2,58 +2,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
 body {
-    background-color: rgb(255, 255, 255) ;
-    font-family: 'Raleway', sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1602536100338-c7762727ddb7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+    font-family: 'Raleway', sans-serif; 
 }
 
-head {
-    width: 20%;
+header {
+    width: 1200px;
+    font-weight: bold;
 }
 
-.container {
-    background-color: #ffffff;
-    padding: 20px;
+.container1 {
+    box-sizing: border-box;
     position: absolute;
-    width: 345px;
-    height: 527px;
-    left: 400px;
-    top: 90px;
-    border: 1px solid #F6F9FD;
-    border-radius: 52px;
-
+    width: 447.09px;
+    height: 600px;
+    left: 650.18px;
+    top: 80.08px;
+    background: #FFFFFF;
+    border: 18px solid #DFC7B9;
+    border-radius: 35px;
 }
 
-#button {
-    background: #B5CEE9;
+.container-compra {
+    box-sizing: border-box;
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    left: 200.18px;
+    top: 80.08px;
+    background: #FFFFFF;
+    border: 18px solid #DFC7B9;
+    border-radius: 35px;
+}
+
+#btnValidar {
+    background: #DFC7B9;
     font-size: 12px;
     width: 93.94px;
     height: 28.2px;
     left: 605.92px;
     font-family: 'Raleway', sans-serif;
-    
 }
 
-.cardName {
-    background: #B5CEE9;
+#cardName {
+    background:#FBF0EA;
     width: 330.94px;
 }
 
-.cardNumber {
-    background: #B5CEE9;
+#cardLastName {
+    background: #FBF0EA;
     width: 330.94px;
 }
 
-#div1 {
-    background-color: #d6e2ec;
-    padding: 20px;
-    width: 380px;
-    height: 570px;
-    left: 400px;
-    top: 90px;
-    border: 1px solid #F6F9FD;
-    border-radius: 52px;
-    margin-left: 374px;
-    margin-right: 70%;
-    margin-top: 6px;
-    margin-bottom: 1;
+#cardNumber {
+    background: #FBF0EA;
+    width: 330.94px;
 }
+
+#Valida {
+    font-weight: bold;
+    color: #610029;
+}
+
+#Invalida {
+    font-weight: bold;
+    color: rgb(255, 15, 55);
+}
+
