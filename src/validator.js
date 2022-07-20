@@ -8,8 +8,9 @@ const validator = {
 
     let arraydnumeros= creditCardNumber.split("").map(Number);
 
-    /*Duplicar los números en posiciones pares después de tener la tarjeta al reverso. En vez de hacer el reverso, lo que se aplica es que si el length de mi tarjeta es un 
-    núm par, va a duplicar cada dos dígitos comenzando con la primera posición de mi array (0). 
+    /*Duplicar los números en posiciones pares después de tener la tarjeta al reverso. En este caso, en vez de 
+    hacer el reverso, lo que se aplica es que si el length de mi tarjeta es un núm par, va a duplicar cada dos 
+    dígitos comenzando con la primera posición de mi array (0). 
     
     Ejemplo: 
 
@@ -22,9 +23,9 @@ const validator = {
     12345 = [1, 2*, 3, 4*, 5]
 
    Entonces, si el lenght de mi tarjeta se le aplica el operador % 2 y es igual a 0 (es decir es un número par)
-  se le va aplicar lo anterior, según corresponda
+  se le va aplicar lo anterior.
   
-  Los operadores "?, :" son formas cortas de la condición if-else
+  Los operadores "?, :" son operadores condicionales (operador ternario)
   */
 
   if (arraydnumeros.length % 2 === 0){
@@ -34,7 +35,7 @@ const validator = {
          arraydnumeros = arraydnumeros.map((numero,idx)=> idx % 2 === 1 ? numero * 2 : numero);
         }
       
-  /*Despues de multiplicar, si los numeros pasan de 9 restar 9, si no pasan de 9 se queda así el número. En el
+  /*Despues de duplicar, si los numeros pasan de 9 restar 9, si no pasan de 9 se queda así el número. En el
   Algoritmo de Luhn, esto se explica como sumar los digitos, pero es lo mismo que restarle 9 */
   
       arraydnumeros = arraydnumeros.map(numero => numero > 9 ? numero -9 : numero);
@@ -59,25 +60,12 @@ const validator = {
        }
        return resultado
     }, 
-  //maskify
-  maskify(creditCardNumber) {
-    
-    if (creditCardNumber < 5) {
-      return creditCardNumber;
-    }else{
-
-      /*fragmentamos el string creditcardnumber en un array y comienza a iterar 
-      a través de los elementos del array. Al length de nuestro array se le se remplaza
-      por # menos los últimos 4 digitos. Al final queremos volver a convertirlo
-      en un string por eso se usa el join 
-      */
-
-      return creditCardNumber.split("").map(function(nums, idx){
-        return (creditCardNumber.length - idx < 5) ? nums : "#";
-     }).join("");
+  //enmascarar
+   maskify(creditCardNumber) {
+    return creditCardNumber.split("").map((nums, idx) => 
+      idx < creditCardNumber.length - 4 ? "#" : nums).join("");
     }
-  }
-};
+  };
 
           
 
