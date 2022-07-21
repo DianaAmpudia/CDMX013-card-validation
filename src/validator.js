@@ -2,9 +2,8 @@ const validator = {
   
   isValid(creditCardNumber){
 
-    /*convertimos el string a array y a numero. Con el split fragmentamos por elemento. Con map(number) iteramos
-     a través de los elementos (bucle para avanzar de un elemento a otro en una lista, manteniendo el orden y
-       la posición de cada elemento):*/
+    /*convertimos el string a array con el método split y lo fragmentamos por elemento. Con map(number) iteramos
+     a través de los elementos, en este caso,los numeros*/
 
     let arraydnumeros= creditCardNumber.split("").map(Number);
 
@@ -25,7 +24,7 @@ const validator = {
    Entonces, si el lenght de mi tarjeta se le aplica el operador % 2 y es igual a 0 (es decir es un número par)
   se le va aplicar lo anterior.
   
-  Los operadores "?, :" son operadores condicionales (operador ternario)
+  "?, :" son operadores condicionales (operador ternario)
   */
 
   if (arraydnumeros.length % 2 === 0){
@@ -40,12 +39,9 @@ const validator = {
   
       arraydnumeros = arraydnumeros.map(numero => numero > 9 ? numero -9 : numero);
       
-  /*Hecho todo lo anterior se tiene que sumar todo. El .reduce() aplica una función al acumulador 
-  y a cada valor del array (de izquierda a derecha) para reducirlo a un único valor.
-
+  /*Hecho todo lo anterior se tiene que sumar todo. Usamos .reduce() para poder realizar operaciones (en este
+    caso suma) a cada uno de los elementos del array, de forma que nos devuelva un valor único.
   acc= accumulator
-  += es un operador aritmético, se utiliza para sumarle una valor a cierta variable.
-  Se usa para acortar la expresión.
   */
 
       let suma= arraydnumeros.reduce((acc, numero)=> acc += numero, 0);
@@ -66,7 +62,4 @@ const validator = {
       idx < creditCardNumber.length - 4 ? "#" : nums).join("");
     }
   };
-
-          
-
 export default validator
