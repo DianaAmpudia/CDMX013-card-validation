@@ -59,13 +59,7 @@ header {
     width: 330.94px;
 }
 
-#Valida {
+#mensaje1 {
     font-weight: bold;
-    color: #610029;
+    color: #a30949;
 }
-
-#Invalida {
-    font-weight: bold;
-    color: rgb(255, 15, 55);
-}
-
