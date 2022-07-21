@@ -6,7 +6,7 @@
     <title>Método de Pago</title>
     <link rel="stylesheet" href="style.css"/>
     <header align="center">
-      <h2>nana's store</h2></header>
+      <h1>nana's store</h1></header>
   </head>
 
 
@@ -18,16 +18,16 @@
         <div align="center"><img src="img/logop.png"></div>
         <p align="center">ORDER #0001 FOR DIANA AP</p>
         <p align="center">THURSDAY, JULY 14, 2022</p>
-        <h5 align="center">1 HEART SHAPED MIRROR_____________200</h5>
-        <h5 align="center">1 PEARLED SUN EARRINGS____________100</h5>
-        <h5 align="center">1 PINK FLOWER BRACELET____________080</h5>
-        <h5 align="center">ITEM COUNT:________________________003</h5>
-        <h5 align="center">TOTAL:_____________________________$380</h5>
+        <p align="center">1 HEART SHAPED MIRROR_____________200</p>
+        <p align="center">1 PEARLED SUN EARRINGS____________100</p>
+        <p align="center">1 PINK FLOWER BRACELET____________080</p>
+        <p align="center">ITEM COUNT:________________________003</p>
+        <p align="center">TOTAL:_____________________________$380</p>
       </div>
 
       <div class="container1" align="center">
         <h2 align="center">Antes de continuar con tu pago...</h2>
-        <h4>Es necesario validar tu tarjeta de crédito/débito, para ello coloca los siguientes datos:</h4>
+        <p>Es necesario validar tu tarjeta de crédito/débito, para ello coloca los siguientes datos:</p>  
         
         <p>Nombre(s):</p>
          <input type="text" id="cardName" name="name">
@@ -36,18 +36,17 @@
          <input type="text" id="cardLastName" name="lastname">
           <br>
          <p>Número de Tarjeta:</p>
-          <input type= "text" id="cardNumber" name="tarjeta" minlength="13" maxlength="16" required>
+          <input id="cardNumber" maxlength="16" type="text" required>
         
-           <div class="botones" align="center">
-           <br><button type="submit" class="btnValidar" id="btnValidar">VALIDAR</button><br>      
+           <div class="boton" align="center">
+           <br><button type="submit" class="btnValidar" id="btnValidar">VALIDAR</button><br>    
+           
+          <p id="mensaje1" align="center"></p>
+          <p id="mensaje2" align="center"></p>
 
-          <br><div id="Valida" align="center"></div><br>
-          <br><div id="Valida2" align="center"></div><br>
-          <div id="Invalida" align="center"></div>
-          <div id="Invalida2" align="center"></div>      
+
       </div>  
     </div>
-
     </main>
 
     <footer></footer>
