@@ -19,6 +19,6 @@ Para lograr esto, se utilizo el algoritmo de Luhn, método utilizado para valida
 
 ## 2. Imagen final del proyecto
 
-(https://raw.githubusercontent.com/DianaAmpudia/CDMX013-card-validation/main/src/img/PF_TarjetaI.png)
+![pantalla tarjeta invalida](https://raw.githubusercontent.com/DianaAmpudia/CDMX013-card-validation/main/src/img/PF_TarjetaI.png)
 
 ## 3. Investigación UX
