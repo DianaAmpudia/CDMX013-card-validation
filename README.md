@@ -10,7 +10,10 @@
 
 ## 1. Resumen del proyecto
 
-Este proyecto está enfocado a una de las pantallas del proceso del método de pago de una tienda de bisutería. El objetivo principal es que tanto la tienda como el cliente tengan la seguridad de que la tarjeta que se usa es legítima. La tienda evita cualquier tipo de estafa al asegurar que es válida y el cliente que coloco los datos correctos.
+Este proyecto está enfocado a una de las pantallas del proceso del método de pago de una tienda de bisutería. Los principales usuarios son los clientes de la tienda, que durante su pago, deben validar su tarjeta de crédito para poder continuar con su proceso de compra.
+
+El objetivo principal es que tanto la tienda como el cliente tengan la seguridad de que la tarjeta que se usa es legítima. La tienda evita cualquier tipo de estafa al asegurar que es válida y el cliente que coloco los datos correctos.
+
 
 Para lograr esto, se utilizo el algoritmo de Luhn, método utilizado para validar números de identificación.
 
@@ -22,7 +25,7 @@ Para lograr esto, se utilizo el algoritmo de Luhn, método utilizado para valida
 
 ## 3. Investigación UX
 
-Los principales usuarios son los clientes de la tienda, que durante su pago, deben validar su tarjeta de crédito para poder continuar con su proceso de compra. El primer prototipo que se tuvo del proyecto fue el siguiente:
+El primer prototipo que se tuvo del proyecto fue el siguiente:
 
 En papel:
 ![boceto](https://raw.githubusercontent.com/DianaAmpudia/CDMX013-card-validation/main/src/img/boceto.jpg)
@@ -32,14 +35,15 @@ En figma:
 
 ![figma1](https://raw.githubusercontent.com/DianaAmpudia/CDMX013-card-validation/main/src/img/Figma1.png)
 
-Sin embargo, se decidió hacer modificaciones para que diera a entender que en efecto se trataba de la interfaz de una tienda, por ello se agregó el carrito de compra.
+Gracias al feedback recibido, se decidió hacer modificaciones para que diera a entender que en efecto se trataba de la interfaz de una tienda, por ello se agregó el carrito de compra.
+
 Además, se buscó que el diseño correspondiera a la identidad de la tienda. Para lograr este objetivo, se hizo uso de un moodboard, una paleta de colores y una imagen background que respondiera a dicha identidad. 
 
-###Moodboard: 
+Moodboard: 
 
 ![moodboard](https://raw.githubusercontent.com/DianaAmpudia/CDMX013-card-validation/main/src/img/moodboard.png)
 
-###Prototipo Final:
+Prototipo Final:
 
 ![figma2](https://raw.githubusercontent.com/DianaAmpudia/CDMX013-card-validation/main/src/img/Figma2.png)
 
