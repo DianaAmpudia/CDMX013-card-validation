@@ -12,7 +12,7 @@
 
 Este proyecto está enfocado a una de las pantallas que se muestran durante el proceso de método de pago de una tienda de bisutería. Los principales usuarios son los clientes de la tienda, que durante su pago, deben validar su tarjeta de crédito para poder continuar con su proceso de compra.
 
-El objetivo principal es que tanto la tienda como el cliente tengan la seguridad de que la tarjeta que se usa es legítima. La tienda evita cualquier tipo de estafa al asegurar que es válida y el cliente se asegura de que se colocaron los números correctos.
+El objetivo principal es que, tanto la tienda como el cliente, tengan la seguridad de que la tarjeta que se usa es legítima. La tienda certifica que la tarjeta con la que se compran sus productos es válida y el cliente se asegura de que se colocaron los números correctos.
 
 
 Para lograr esto, se utilizo el algoritmo de Luhn, método utilizado para validar números de identificación.
