@@ -67,7 +67,7 @@ const validator = {
   maskify(creditCardNumber) {
     return creditCardNumber.split("").map((nums, idx) => 
       idx < creditCardNumber.length - 4 ? "#" : nums).join("");
-    }
+    } 
   };
 
 /* Otra forma de hacer el maskify
